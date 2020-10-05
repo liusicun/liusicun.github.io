@@ -7,7 +7,7 @@
 
 
 
-<title>2020该会如何收场？ | LSC|NIGHTMARE</title>
+<title>Hexo-Chic 更换主页社交账号icon | LSC|NIGHTMARE</title>
 
 
 
@@ -103,11 +103,73 @@
             <div class="container">
     
     
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">2020该会如何收场？</h1>
+            <h1 class="post-title">Hexo-Chic 更换主页社交账号icon</h1>
             
                 <div class="post-meta">
                     
@@ -116,7 +178,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">October 1, 2020&nbsp;&nbsp;0:05:15</a>
+                        Date: <a href="#">October 5, 2020&nbsp;&nbsp;20:28:44</a>
                         </span>
                     
                     
@@ -125,12 +187,19 @@
         </header>
 
         <div class="post-content">
-             <p> <center>  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=28665749&auto=1&height=66"></iframe> </center></p>
+            <h3 id="首先在-阿里巴巴矢量图标库选择自己喜欢的图标"><a href="#首先在-阿里巴巴矢量图标库选择自己喜欢的图标" class="headerlink" title="首先在 阿里巴巴矢量图标库选择自己喜欢的图标"></a>首先在<a href="https://www.iconfont.cn/" target="_blank" rel="noopener"> 阿里巴巴矢量图标库</a>选择自己喜欢的图标</h3><h3 id="添加在购物车内"><a href="#添加在购物车内" class="headerlink" title="添加在购物车内"></a>添加在购物车内</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjeq6pfp00j306606u3yh.jpg" alt></p>
+<h3 id="再加到项目"><a href="#再加到项目" class="headerlink" title="再加到项目"></a>再加到项目</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjeq7qk6xlj30i40h43z1.jpg" alt></p>
+<h3 id="选择下载到本地"><a href="#选择下载到本地" class="headerlink" title="选择下载到本地"></a>选择下载到本地</h3><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gjeq8o8xsnj31dc0ho40q.jpg" alt></p>
+<h3 id="下载到本地解压压缩包，改名为iconfont2"><a href="#下载到本地解压压缩包，改名为iconfont2" class="headerlink" title="下载到本地解压压缩包，改名为iconfont2"></a>下载到本地解压压缩包，改名为iconfont2</h3><h3 id="将文件夹移到fonts下"><a href="#将文件夹移到fonts下" class="headerlink" title="将文件夹移到fonts下"></a>将文件夹移到fonts下</h3><blockquote>
+<p>/Users/lsc/Documents/blog/themes/Chic/source/fonts  </p>
+</blockquote>
+<h3 id="在style-styl配置"><a href="#在style-styl配置" class="headerlink" title="在style.styl配置"></a>在style.styl配置</h3><blockquote>
+<p>/Users/lsc/Documents/blog/themes/Chic/source/css/style.styl </p>
+</blockquote>
+<p>添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@import &quot;../fonts/iconfont2/iconfont.css&quot;</span><br></pre></td></tr></table></figure>
 
-<p>今天是2020年9月30日，那些”WAKE ME UP WHEN SEPTEMBER ENDS”的朋友们，该醒来了。</p>
-<p>刚刚发现已经00:04了，国庆&amp;中秋，双节快乐！</p>
-<p>距离上一次更新已经过了快一年的时间，在经历了这次亲人离世，疫情，我对生命的看法依旧没有什么改变。<br>简单的一句话，我还是想离开。</p>
-
+<h3 id="最后在config-yml中配置即可"><a href="#最后在config-yml中配置即可" class="headerlink" title="最后在config.yml中配置即可"></a>最后在config.yml中配置即可</h3>
         </div>
 
         
@@ -139,7 +208,7 @@
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://liusicun.com/2020/10/01/2020该会如何收场？/">http://liusicun.com/2020/10/01/2020该会如何收场？/</a></span>
+                        <span><a href="http://liusicun.com/2020/10/05/Hexo-Chic-更换主页社交账号icon/">http://liusicun.com/2020/10/05/Hexo-Chic-更换主页社交账号icon/</a></span>
                     </p>
                 
                 
@@ -158,7 +227,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/Mood/"># Mood</a>
+                        <a href="/tags/Tech/"># Tech</a>
                     
                         
                 </span>
@@ -171,10 +240,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/10/05/Hexo-Chic-更换主页社交账号icon/">Hexo-Chic 更换主页社交账号icon</a>
             
-            
-            <a class="next" rel="next" href="/2019/10/12/20191012/">reality</a>
+            <a class="next" rel="next" href="/2020/10/01/2020该会如何收场？/">2020该会如何收场？</a>
             
         </section>
 
