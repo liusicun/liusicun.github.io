@@ -103,68 +103,6 @@
             <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
-</div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
-    
 
     
     <article class="post-wrap">
@@ -187,21 +125,15 @@
         </header>
 
         <div class="post-content">
-            <h4 id="Last-night-I-had-a-dream-a-dream-that-I-wish-it-could-be-true"><a href="#Last-night-I-had-a-dream-a-dream-that-I-wish-it-could-be-true" class="headerlink" title="Last night I had a dream, a dream that I wish it could be true."></a>Last night I had a dream, a dream that I wish it could be true.</h4><p>I dreamed about a friend that I should never lose but actually lost, in my dream I was too shy or too guilty to talk to her so I just ran in front of her and she just called my name…and said </p>
-<blockquote>
-<p>“I thought you won’t show up, otherwise my Lego gift for you would be useless” </p>
-</blockquote>
-<p>and she gave the gift to me then said “and a chance that we can be friends once again”</p>
-<p>And we just back to where we were, we are friends once again just like the old time but I woke up.</p>
-<p>My consciousness was still unclear but I knew I was pretty sad just after I woke up from that dream.</p>
-<p>I eventually have a chance to talk to her in April, she shows the indifference I have never seen before but I don’t blame her cause I know it was my fault, well most of my fault. I hurt her so badly, and now she refuses to talk to me or meet me and for that, I got nothing to complain I just deserve that.<br>Although I did everything I can to apologize and convince her back or even beg her, she just refused me once and once again, I know she’s afraid of I am gonna hurt her once again since the last time I did break her heart.</p>
-<p>I won’t hurt her again, but it’s all too late to say.</p>
-<p>after a month it’s her birthday so I decided to try the last time. I sent her the album of her favorite singer as a gift and wrote a short letter, I was hoping she can at least accept my gift.  But a month later before I was about leaving for home I got the message that she also refused to sign for the gift, the postman asked me if I want the package back.</p>
-<p>Finally, I decided to let it go.</p>
-<p>Should I let it go?</p>
-<p>Can I let it go?</p>
-<p>I am not sure about that.</p>
-<h4 id="I-guess-I-will-let-it-go-when-I-stopped-dreaming-about-you"><a href="#I-guess-I-will-let-it-go-when-I-stopped-dreaming-about-you" class="headerlink" title="I guess I will let it go when I stopped dreaming about you."></a>I guess I will let it go when I stopped dreaming about you.</h4>
+            <div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder>
+    <label for="hbePass">Hey, password is required here.</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="93ee0d7c343311abda0e731c86f9a06b5aaf33e024b739aa23dfba6bf5b0ceb1">caf8dff0898df0492b93cdd0edd7f6effc782154705f95f3193175dd7c7fab96c8cc963de7dc41a8e1fecc92793bb919a6abe9980e682ba7c4bca0d14722271052b0efb08366310eb860bd7eb553470b93bb98a2678b67bad5f97f1efe8a3c3ae1abda077ba31230412f23439156649956af5ef2d29a95b702ea815882cf282ed8e48e2516f191a0602f0959b596cb0c3dc8d9977c641365deb2deba76fef36bce6abe5415a697061858c58e0d460eb3c440d8918d8c8da72c0d805a9dbfd580a49edd0bc9cc77aab8447fe67026ea2b16c91a54f580b31bd85ffe0b4c14d97fd7f43a6eaedbd7a5b8e5b95d0fa0bff11f804b2f1349c5a7c63933b1a2467a109fb9b26e28352244b69b398e11b38e2191b9e7163da6cadf70ba65b9ed1b6cb60d5ee44225f8440561813ee28a07ba3cd4be20e5c4282f67716502fccf1c40d904d06834044667ad66ce976f6e2c03d8052ca314501548b6a07553309bc5a529ef5de39796f1564e1864488cfc3ce0233d8c7971f6be5f8673c59856248e801d21278f4240a89a7a81951208051d46568cd55c043c2e30695b59d98d44e8f3377701b68a7d8257e2aa750191a7da6b81683b6db181fd3c762199be7dc8a3eabf747e9de0a072829deb27634b2f13bc75ea4318f467c4c16b8479a51fe9d171405f0aa78505f291877dafd4c6e305285b015cbc3c458e448dc497d09dd725d226c4f1bf177484b271313cad4a2890c44be9b2b8e1966867356e309c810981b22276b9b7624d678b64be9eb0d87112293c698ea67ee017f699abecae1e9e14d9949582f78438ed5d30d3f8b8e62db03491495e15edeeedbf1ba45779c400a4a7df75f5953a42b56ce9ac9752834d1f3f5f66ae780ee07538dfce89f136d0679d22f269044148b5739453f918ead87708aefba5a6ca70a71006553c2d49d34ad31b444a75e4bc53bd78e842f19693d89b5332135ea25d11b27c1c91171f208ac095fd96a22f885a79bacfcf0a4acb75614b39563ace2cfc5aaa2610b8f2061e0154537ae74c40c6f6ac89227e0d0875f6b63cea951d57f44806fb314b3f29a68e1cceaa478ad66dced8048e17a1c92803ff55d3488d170de78462ba24aa97b1c1b19832c26de0f834363b8cc02c182b3a84614191efd541ce3998e7187a01becab8df29ef8fb0e681ad824b774f93853366512d057379f8ab6db870f002ac786bbce60f6c04bffcf14bb6acdea148b58d2dc1dac305a371cdba91a6bdfd45f07b5c4ddb3deb948cd207957a64f37c34135ef0d19a01cf3e3ad7d9cd478fb4db95795de83146d8bedbff06a2e1f87bb022b62b4a8136801f5d142ac9b106e8136450088bfa6b9970bfb11bab45dce8006faaef81c9c76b1b685143200a4043e5b85b92977e1309786f50992aa731a6954ab2c06990cbf9cef43b24fdca5be51f9708fdbd79a3a663cce050a85e81f5ae37dd40aa1a0f325480de9933dbe3d39a3b842ad109b5d8c145eda2032d1c0f2901baf06fbf20bf378e2fb6cdf553a220adcb9661ac16bae098f93ed33352084bf7e712dcd73233e1574733b0c1ddcbd71ffc2dae0cd2903d1b1cc7723b560d4fadeb185a853875520bdc4fea4c3186c6c4544589d5ed54193d14bf694e01c0e0c6427667ea94978e2cb1d97e806d2a020380e7d28fb38d52ceb3a02362bbf6fc658d5c99517a97e10c6cad2a82c8a5255dd7ebb55d49470b0d12391f2aaf79ff03c9adf2707f456a3ed39717ced6f9bc494dff33cc350a785c6ccc1afd2295d028dbd71f270faec4e4fb5c33c310075a2f7c64406295a56725ff60154ca735a1dcee38c66dd735f3c0055e4ac5491f1779f96f109e3d5ca2a0f85868d64a77a22ef6f04996fa5117ef62874602dda91303778247cf433e00986cfa77e36d1162a7b28086d15f2702191f111c20ad06b66574a30969a5f579de7eb56e79c63f0707ac2b4f71dcab66b38464ae31869fd8547fb4848bcd4d64858c730e35770aefd04f7e682443408d79c8f34e96bca568ea06dbed8f45e7997b3bacd51bd1279cfb8c2b79877fffc58fa051e653a164f927f37abf23494a64b8091d1b436ffe9a4df0bcc758ddfbc32367db5b0b9421732048055b38bbe4d49e9a9b422624e3472058f6f454c56c3e94ec31f1a7ea55d46f3b6a227b9ef69cb0baeecffac119dd88dacdaaa7401a131179842f862bb3a187da516d647aafa06d61ebb4c8c168e31fe5872ac0647722c2e39f6ad16e8dbd726b7109c9c404a7e266943de4b0e4d8dcdd19de2d0f5c746c1c435feffcb234c799f5f26c7bf9b813db81d3f59923439bb26dfeb97fad51bc0d7d61fee7335eb04422e494d4dc6be0710828f9fcef9f02b49b85c79381896ff9075cc1cd76bdf844d93441e220131c4a91815d5114afed3c0ac509ceeb8d1b94bd484202cc132c545d03cdc0a19bbae1f746f65d5d5f0a87ddc0637ea3258cd2f000daadde42267f4b2adfb916cdf9b639250065ac647861e8a8b29aa9ff541ade9e26231f43951fdcca4aeba638b3920652bdc2e8e11f06091c3eb7889a77499ac72c6bbac9ce927a182c78ff9c52930cc24c6d8562553308b9754d36463fb9e2d030108302d593eb28ddc00f1bf1a5438d4e3fd5f10f327d53689dbe456c64eb85285f52d9ea3748221f78ba11ffd36eb60c700c86268c7b471beca7c0dc70ac49918660dcb429eb5608ae1550adf3ca9c74b5f5b55b706bfeaa06a84682566f91432a4c64fde47593e63fbfe61d9cf641090553406de506f5a4d0e7bb4e20525ae36c63e169e12f203ac783062e2b27f63686514a1ea0340a4d7571d9972643a6d9c0e4bb36054dbf3601b48adf5d50d9599ca49cfc390b8f192255dd7ec2ec950602d046f55f6f6a49384e50f0fa3bed25d812f5fc23e769fa52b956c7e312701104940d58639449007dd20c1e08b8cfd2bf309714c1eaa6114d427ca5c80a7417e553d736a689165fa11f05e9a62d1d0c37099e6992ccbdd2efb00e63ac91a0eb4350f29fb0f942c0b11af98bb2810555af9569187de237fea816dcdea501894eff26823eba0e2ba45160ad6d1635f4e2030b4553d8bdd8bf68e944e02e8b8899be5b61380e8e10754749b66a9d19bfa6d50df8cd012a7d4995e58bcd9161c6c777030ceb18381efd20c2e216939286d57db7fa2d99d72f4062710213447ac98aa7b476dc49b6178f87640fa097007cb4c97397017dd184c388b6a1fda895ff9badbec0d04487883ae995418a15c46069dc2802c0702d02efc9e028fb2d607e52ac762a24f0</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
         </div>
 
         
