@@ -48,12 +48,12 @@ a {
 }
 .al_button_theme {
   color: #fff;
-  background: #be223a;
-  border: 1px solid #be223a;
+  background: #4c8cf2;
+  border: 1px solid #4c8cf2;
 }
 .al_button_transparent {
-  color: #be223a;
-  border: 1px solid #be223a;
+  color: #4c8cf2;
+  border: 1px solid #4c8cf2;
 }
 .al_letter {
   text-transform: uppercase;
@@ -144,7 +144,7 @@ em {
 }
 .al_index_background {
   z-index: 10;
-  background-color: #be223a;
+  background-color: #4c8cf2;
 }
 .al_index_background_letter {
   font-size: 600px;
@@ -190,8 +190,8 @@ em {
   color: #444;
 }
 .al_post_nav .al_post_nav_item:hover {
-  fill: #be223a;
-  color: #be223a;
+  fill: #4c8cf2;
+  color: #4c8cf2;
 }
 .al_post_nav .al_arrow {
   width: 10px;
@@ -273,7 +273,7 @@ em {
   word-wrap: break-word;
 }
 .al_index_post_title a:hover {
-  color: #be223a;
+  color: #4c8cf2;
 }
 .al_index_post_button {
   width: calc(50% - 15px);
@@ -311,7 +311,7 @@ em {
   z-index: 11;
 }
 .al_index_footer a {
-  color: #be223a;
+  color: #4c8cf2;
 }
 .al_index_footer_item {
   margin-bottom: 10px;
@@ -339,7 +339,7 @@ em {
   }
 }
 .al_page_background {
-  background-color: #be223a;
+  background-color: #4c8cf2;
   z-index: 10;
 }
 .al_page_container {
@@ -361,7 +361,7 @@ em {
   cursor: zoom-in;
 }
 .al_main_page_container a {
-  color: #be223a;
+  color: #4c8cf2;
 }
 .al_main_page_container q,
 .al_main_page_container blockquote {
@@ -563,7 +563,7 @@ code:not(.hljs) {
 }
 #post-body > ul li::before {
   content: "•";
-  color: #be223a;
+  color: #4c8cf2;
   display: inline-block;
   margin-right: 10px;
 }
@@ -577,7 +577,7 @@ ol li {
 ol li::before {
   content: counter(ol) ".";
   counter-increment: ol;
-  color: #be223a;
+  color: #4c8cf2;
   text-align: right;
   display: inline-block;
   min-width: 1em;
@@ -590,7 +590,7 @@ ol li::before {
   width: 400px;
   bottom: 0;
   z-index: 1001;
-  background-color: #be223a;
+  background-color: #4c8cf2;
 }
 .al_sidebar_author_cnt {
   background-color: #fff;
@@ -657,7 +657,7 @@ ol li::before {
   fill: #00aaf0;
 }
 .al_social_icon_cnt #instagram {
-  fill: #96cea6;
+  fill: #94cb3c;
 }
 .al_social_icon_cnt #weibo {
   fill: #d2292b;
@@ -726,8 +726,8 @@ ol li::before {
     fill: #bbb;
   }
   .al_post_nav .al_post_nav_item:hover {
-    fill: #be223a;
-    color: #be223a;
+    fill: #4c8cf2;
+    color: #4c8cf2;
   }
   .gt-comment-content {
     background-color: #090601 !important;
